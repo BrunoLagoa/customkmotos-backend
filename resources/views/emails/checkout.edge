@@ -1,0 +1,15 @@
+<strong>Solicitação de orçamento</strong>
+
+<p>Uma solicitação de orçamento foi realizada para o e-mail <strong>({{ email }})</strong>.</p>
+
+<p>Abaixo, lista de produtos:</p>
+
+<ul>
+  @each(card in cards)
+<li> <strong>Produto: </strong> {{ card.product.name }} - <strong>categoria: </strong> {{ card.product.category.name }}  - <strong>Tamanho: </strong> {{ card.product.size }}  - <strong>Preço: </strong>{{ card.product.price }}  - <strong>Quantidade: </strong> {{ card.amount }} - <strong>Total: </strong> {{ card.product.price * card.amount }}</li>
+  @endeach
+</ul>
+
+<br>
+<p><strong>Total do pedido:</strong> R$ {{ total }}</p>
+
