@@ -4,7 +4,7 @@
 
 ## Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto API server, foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
 - [Adonis.js](https://adonisjs.com)
@@ -12,6 +12,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Projeto
 
 O CustomKMotos é um projeto que visa conectar clientes a sua lista de produtos de forma simples e direta.
+
+## Setup
+
+Use o commando para instalar as dependências necessárias:
+
+`npm install`.
+
+### Migrations
+
+Use o comando para instalação das migrations:
+
+```js
+adonis migration:run
+```
 
 ## Licença
 
