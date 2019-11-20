@@ -15,17 +15,14 @@ O CustomKMotos é um projeto que visa conectar clientes a sua lista de produtos 
 
 ## Setup
 
-Use o commando para instalar as dependências necessárias:
+## Setup
 
-`npm install`.
-
-### Migrations
-
-Use o comando para instalação das migrations:
-
-```js
-adonis migration:run
-```
+- Execute `npm install` para instalar todas as dependencies
+- Crie uma cópia do arquivo `.env.example` e renomeie para `.env`
+- Execute `adonis key:generate` para gerara a key secreta
+- Execute `adonis migration:run` para configurar o database
+- Execute `npm run build:dev` para gerar o build static assets
+- Execute `adonis serve --dev` para iniciar o servidor
 
 ## Licença
 
