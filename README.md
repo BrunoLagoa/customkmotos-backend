@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="CustomKMotos" src="https://github.com/BrunoLagoa/customkmotos-backend/blob/master/public/logo.png" width="250px">
+    <img alt="CustomKMotos" src="https://github.com/BrunoLagoa/customkmotos-backend/blob/master/public/logo.png" width="450px">
 </h1>
 
 <h4 align="center">
