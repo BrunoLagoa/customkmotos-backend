@@ -16,7 +16,6 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^6.6.1",
     "@adonisjs/auth": "^3.0.7",
     "@adonisjs/bodyparser": "^2.0.5",
     "@adonisjs/cors": "^1.0.7",
@@ -29,6 +28,7 @@
     "pg": "^7.12.1"
   },
   "devDependencies": {
+    "@adonisjs/ace": "^5.0.8",
     "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
